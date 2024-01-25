@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Home Page..</title>
+    </head>
+    <body>
+        <h1>Home Page called...</h1>
+        <b>Array is :</b> <%= arr %><br><br>
+        <hr>
+        <% 
+        let sum=0;  
+        for(let i=0;i<arr.length;i++){ 
+            sum +=arr[i]; 
+        %>
+        <% 
+        } 
+        %>
+        <b>Sum is :</b><%= sum %><br><br>
+        <b>Average is : </b><%= sum/arr.length %><br><br>
+        <b>Reverse of array : </b><%= arr.reverse() %><br><br>
+        <b>Ascending of array : </b><%= arr.sort() %><br><br>
+        <b>Descending of array : </b><%= arr.reverse() %><br><br>
+        <b>Maximum of array : </b><%= arr[0] %><br><br>
+        <b>Minimum of array : </b><%= arr[arr.length-1] %><br><br>
+        <b>First two max elements : </b><%= arr[0] %> <%= arr[1] %><br><br>
+        <b>First two mini elements : </b><%= arr[arr.length-1] %> <%= arr[arr.length-2] %><br><br>
+    
+
+    </body>
+</html>

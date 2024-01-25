@@ -1,0 +1,11 @@
+https://www.abcd.com:9090/DemoApp               Post type URL
+https://www.abcd.com:9090/DemoApp?x=10&y=20     Get type URL
+
+
+https => Protocol
+www.abcd.com:9090 => Application Domain
+9090 => Port Number
+DemoApp => Application Name
+? => Before ? URL and after ? data (in the form of key value pairs)
+x and y => Both are keys 
+& => seprate more then one data

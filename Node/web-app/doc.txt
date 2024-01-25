@@ -1,0 +1,18 @@
+Module : fs,path,url  (Level 1 Module)
+
+To deal with request and response object => We install 'http' Module
+Module install => Local : npm install --save ModuleName
+    npm install --save http
+-------------------------------------------------------------------------------------------------
+
+server.listen() => 1.listen method is used to strat the server
+                   2.this method is used pre-defined present in inside the http Server
+
+Note : Jaise hi client se request aayegi callback function executed hoga 
+
+---------------------------------------------------------------------------------------------------
+
+response.write() => It is used to print output or any message on browser screen 
+                    it is predefined method Present in response object 
+
+----------------------------------------------------------------------------------------------------

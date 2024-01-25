@@ -1,0 +1,12 @@
+Practice Questions :
+    let arr = [10,20,74,73,80,50,40,0,90,60,30];
+
+    Q).sum of array elements
+    Q).avg of array elements
+    Q).max of array elements
+    Q).minimum of array elements
+    Q).reverse of array elements
+    Q).acs of array elements
+    Q).des of array elements
+    Q).first two max array elements
+    Q).first two mini array elements

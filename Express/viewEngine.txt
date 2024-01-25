@@ -1,0 +1,18 @@
+view engine : Template  Engine
+    a. ejs = Embedded JavaScript
+    b. pug
+    c. jade
+
+we use => npm install ---save 'engineName'
+          npm install ---save ejs
+
+
+ejs = HTML code + JavaScript code
+
+app.set('view-engine','ejs')  // to set view engine on our project
+
+Note : Controller search ejs file inside the views folder 
+
+app : it is express server object
+
+views is a by default folder & we can change this folder name 

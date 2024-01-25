@@ -1,0 +1,77 @@
+Day 1 - 19-Jan
+
+Node Drawbacks :-
+    -> Manual management for request and response
+    -> Manual URL routing & method checking
+    -> Response header management
+    -> Unavailablity of tamplate engines
+    -> Unavailablity of template pages
+
+Features of ExpressJs :-
+    -> Default management of request and response
+    -> Default URL routing and method checking
+    -> Response header management
+    -> Tamplate Engines
+
+Need To study : Envet Emitter
+-------------------------------------------------------------------------------
+
+Day 2 - 20-Jan
+
+Middleware :- this are the functions capaable to accept upcoming requests at application level
+              it can perform various implementations on request 
+
+              -> accept request 
+              -> If required can modify the request, add data
+              -> it must not responde to client 
+              -> After completion of working Middleware will switch to routers
+
+Type of Middleware :
+    - Appliction level Middleware :-
+            const express = require("express");
+            const app = express();
+
+            app.use()
+            app.get()
+            app.post()
+            app.put()
+            app.patch()
+            app.delete()
+        ------------------------------------
+
+    - Route level Middleware :-
+            const express = require("express");
+            const app = express();
+            const router = express.Router();
+
+            router.use();
+        ------------------------------------
+
+    - Builtin Middleware :-
+            JSON-parser
+            Encoding(Urlencoder)
+            etc...
+
+        ------------------------------------- 
+
+    - Error-Handling Middleware :-
+            app.use((error,req,res,next)=>{
+                statements.........
+            })
+
+        ------------------------------------
+
+    - Third Party Middleware :-
+            session,cookies ,etc.....
+            npm install --save session-parser          
+            npm install --save cookies-parser          
+        ------------------------------------
+
+
+Middleware :-
+    1.Execute any code 
+    2.We can make changes to the request and response object
+    3.Middleware can also end the request
+    4.Middleware can call the next Middleware functions in the stack
+
+-------------------------------------------------------------------------------
