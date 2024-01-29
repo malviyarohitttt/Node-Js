@@ -12,4 +12,4 @@ app.use('/admin',adminRouter)   // http://localhost:9090/admin/         admin ho
 app.use('/user',userRouter)     // http://localhost:9090/user/          user home page
 
 app.listen(9090);
-console.log("http://localhost:9090/");
+console.log("http://localhost:9090");
