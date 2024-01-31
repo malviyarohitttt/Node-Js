@@ -1,9 +1,12 @@
+const path = require('path');
 const express = require('express');
 const app = express();
 
 const indexRouter = require('./routes/indexRouter')
 const adminRouter = require('./routes/adminRouter')
 const userRouter = require('./routes/userRouter')
+
+app.use(express.static(path.join(__dirname, 'public/')));
 
 app.set('view engine', 'ejs');
 
