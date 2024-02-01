@@ -1,1 +1,15 @@
 -----Routing-----
+
+
+Express Generator :
+    https://expressjs.com/en/starter/generator.html
+
+install generator : npm install -g express-generator
+
+create application : express --view=ejs myapp
+
+npm install
+
+Run : set DEBUG = myapp:* npm start
+
+by default port = 3000
