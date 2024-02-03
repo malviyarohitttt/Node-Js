@@ -1,0 +1,2 @@
+404 Error code : wrong URl (Page not found in the database for this page)
+500 Error code : Server error (Server is not on/ Server path is wrong) internal Server error 
